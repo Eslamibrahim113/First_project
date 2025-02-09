@@ -30,9 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("التطبيق"),
-      ),
+
       body: _screens[_selectedIndex], // Display the selected screen
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex, // Current selected index

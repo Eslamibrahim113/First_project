@@ -1,4 +1,5 @@
 import 'package:first/auth/register.dart';
+import 'package:first/screens/Home_sc2.dart';
 import 'package:first/screens/homescreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -202,7 +203,7 @@ class LoginScreen extends StatelessWidget {
                 height: 40, // Smaller height
                 child: ElevatedButton(
                   onPressed:(){
-                    Get.to(HomeScreen());
+                    Get.to(HomeScreenContent());
                   }, // Navigate to Login Screen
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.symmetric(horizontal: 24, vertical: 10), // Smaller padding

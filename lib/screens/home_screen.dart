@@ -3,6 +3,7 @@ import 'package:first/screens/detail_1.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
+
 class HomeScreenContent extends StatefulWidget {
   @override
   _HomeScreenContentState createState() => _HomeScreenContentState();

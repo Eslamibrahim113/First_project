@@ -1,6 +1,9 @@
 import 'package:first/model/data.dart';
+import 'package:first/screens/alaat.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 
 class DetailsScreen2 extends StatelessWidget {
   final String imageUrl;
@@ -115,7 +118,8 @@ class DetailsScreen2 extends StatelessWidget {
                      borderRadius: BorderRadius.circular(10)
                  ),
                  child: Text(
-                   height,style: TextStyle(
+                   height,
+                   style: TextStyle(
                      fontSize:18,
                      color: Colors.white
                  ),
@@ -190,7 +194,7 @@ class DetailsScreen2 extends StatelessWidget {
                     height: 50,
                     child: ElevatedButton(
                       onPressed: () {
-
+                      Get.to(alaat());
                       },
                       style: ElevatedButton.styleFrom(
                         padding: EdgeInsets.symmetric(horizontal: 24, vertical: 10),
